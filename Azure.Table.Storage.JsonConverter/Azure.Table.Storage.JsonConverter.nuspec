@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Azure.Table.Storage.JsonConverter</id>
+        <version>1.0.8</version>
+        <title>Azure.Table.Storage.JsonConverter</title>
+        <authors>rose</authors>
+        <owners>Powel</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>JsonConverter for AzureTableStorage</description>
+        <releaseNotes>Initial version of AzureTableStorage JsonConverter</releaseNotes>
+        <copyright>Copyright 2017</copyright>
+        <tags>AzureTableStorage Json FlatProperties</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.6.2">
+                <dependency id="Azure.TableStorage.Repository" />
+            </group>
+        </dependencies>
+    </metadata>
+	<files>
+		 <file src="bin\Release\**\*.*" target="content" /> 
+	</files>
+</package>
